@@ -72,19 +72,29 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
     meta: [
       { charSet: "utf-8" },
       { name: "viewport", content: "width=device-width, initial-scale=1" },
-      { title: "Lovable App" },
-      { name: "description", content: "Lovable Generated Project" },
-      { name: "author", content: "Lovable" },
-      { property: "og:title", content: "Lovable App" },
-      { property: "og:description", content: "Lovable Generated Project" },
+      { title: "Aeterna — Luxury 3D Wedding Invitation Experience" },
+      {
+        name: "description",
+        content:
+          "Aeterna crafts cinematic, emotionally immersive digital wedding invitations. Every love story deserves a beautiful beginning.",
+      },
+      { name: "author", content: "Aeterna" },
+      { property: "og:title", content: "Aeterna — Luxury 3D Wedding Invitation Experience" },
+      {
+        property: "og:description",
+        content:
+          "A digital love universe for the modern couple. Cinematic invitations, RSVP, and a memory vault.",
+      },
       { property: "og:type", content: "website" },
-      { name: "twitter:card", content: "summary" },
-      { name: "twitter:site", content: "@Lovable" },
+      { name: "twitter:card", content: "summary_large_image" },
     ],
     links: [
+      { rel: "stylesheet", href: appCss },
+      { rel: "preconnect", href: "https://fonts.googleapis.com" },
+      { rel: "preconnect", href: "https://fonts.gstatic.com", crossOrigin: "anonymous" },
       {
         rel: "stylesheet",
-        href: appCss,
+        href: "https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,500;0,600;1,300;1,400;1,600&family=Inter:wght@300;400;500&family=Mrs+Saint+Delafield&family=JetBrains+Mono:wght@400&display=swap",
       },
     ],
   }),
