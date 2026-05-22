@@ -107,7 +107,13 @@ function Index() {
 
         {/* 3D Floating Invitation */}
         <div className="relative mt-20 [perspective:1200px]">
-          <div className="absolute -inset-16 bg-radial-[at_50%_50%] from-primary/20 via-accent/30 to-transparent blur-3xl rounded-full -z-10" />
+          <div
+            className="absolute -inset-16 blur-3xl rounded-full -z-10"
+            style={{
+              background:
+                "radial-gradient(circle at 50% 50%, oklch(0.732 0.105 80 / 0.25), oklch(0.92 0.035 20 / 0.35), transparent 70%)",
+            }}
+          />
           <article className="floating-card relative w-[300px] md:w-[340px] aspect-[3/4] bg-card rounded-sm shadow-[0_50px_120px_-20px_oklch(0.732_0.105_80/0.35)] border-[12px] border-primary/25 flex flex-col items-center justify-center p-8">
             <div className="absolute inset-2 border border-primary/40 pointer-events-none" />
             <p className="font-serif text-[10px] tracking-[0.35em] mb-4 text-primary uppercase">
