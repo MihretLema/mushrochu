@@ -87,6 +87,12 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
       },
       { property: "og:type", content: "website" },
       { name: "twitter:card", content: "summary_large_image" },
+      { name: "twitter:title", content: "Aeterna — Luxury 3D Wedding Invitation Experience" },
+      { name: "description", content: "Ethereal Love Designs is a luxury 3D wedding invitation platform for creating immersive digital wedding experiences." },
+      { property: "og:description", content: "Ethereal Love Designs is a luxury 3D wedding invitation platform for creating immersive digital wedding experiences." },
+      { name: "twitter:description", content: "Ethereal Love Designs is a luxury 3D wedding invitation platform for creating immersive digital wedding experiences." },
+      { property: "og:image", content: "https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/82631840-7eca-4272-8092-ed5b60ffa524/id-preview-b15d84f2--ab3763be-1f44-49f7-98fe-62b4c0981902.lovable.app-1779434085858.png" },
+      { name: "twitter:image", content: "https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/82631840-7eca-4272-8092-ed5b60ffa524/id-preview-b15d84f2--ab3763be-1f44-49f7-98fe-62b4c0981902.lovable.app-1779434085858.png" },
     ],
     links: [
       { rel: "stylesheet", href: appCss },
